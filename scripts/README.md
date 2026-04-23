@@ -1,7 +1,7 @@
 
 # Linux Scripts portfolio
 
-This repository contains Bash scripts I built while learning Linux and Cloud Engineering.
+This repository contains Bash scripts built while learning Linux and Cloud Engineering fundamentals.
 
 ## Focus areas
 
@@ -13,9 +13,13 @@ This repository contains Bash scripts I built while learning Linux and Cloud Eng
 
 ## Projects
 
+~ setup_nginx_server.sh
+
+Installs and configures an nginx web sever, updates the system, ensures the service is running & configures firewall rules.
+ 
 ~ nginx_health_check.sh
 
-Checks if nginx is running, verifies port 80 is open, and analyzes logs for 4xx errors.
+Checks if nginx is running, verifies port 80 is open, analyzes logs for 4xx errors & uses exit codes for automation and monitoring.
 
 ~ log_checker.sh 
 
@@ -31,5 +35,4 @@ initial script demonstrating basic bash syntax and structure.
 
 ## Goal
 
-
-Building strong Linux fundamentals before moving into AWS and cloud engineering.
+Building strong Linux fundamentals before progressing into AWS and cloud engineering.
